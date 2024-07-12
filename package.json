@@ -1,0 +1,19 @@
+{
+  "name": "@tsci/imrishabh18.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "tsci dev",
+    "build": "tsup ./index.ts --sourcemap --dts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tscircuit": "^0.0.219",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "type": "module"
+}
